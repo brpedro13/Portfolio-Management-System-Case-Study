@@ -15,7 +15,7 @@
 
 ---
 
-## business Problema de Negócio
+## Problema de Negócio
 
 A área de **Gestão de Portfólio** da Statkraft necessitava de uma ferramenta robusta para monitorar riscos e avaliar a performance de suas carteiras. O processo existente era manual, intensivo em planilhas, lento e propenso a erros, dificultando a agilidade necessária para a tomada de decisão em um mercado volátil.
 
@@ -25,17 +25,16 @@ Desenvolvi do zero uma **aplicação web interativa e centralizada** que automat
 
 ## 🛠️ Arquitetura e Tecnologias
 
-- **Interface/Frontend:** Dash / Plotly
-- **Lógica de Negócio/Backend:** Python (Pandas para manipulação de dados, NumPy para cálculos)
-- **Banco de Dados:** Azure SQL
+- **Interface/Frontend:** Dash / Plotly  
+- **Lógica de Negócio/Backend:** Python (Pandas para manipulação de dados, NumPy para cálculos)  
+- **Banco de Dados:** Azure SQL  
 
 ## ✨ Principais Funcionalidades Implementadas
 
-- **Dashboard Unificado:** Apresentação consolidada de 13 KPIs de risco e performance.
-- **Cálculo de Risco Automatizado:** Implementação de métricas como **Value at Risk (VaR)** para o portfólio.
-- **Simulador de Contratos:** Ferramenta para análise de cenários e **stress testing**, permitindo que os gestores medissem o impacto de novas operações antes da execução.
-- **Atribuição de Performance:** Módulos que permitiam decompor o resultado da carteira para entender quais estratégias ou contratos geraram maior retorno.
-- **Gestão de Prêmios:** Acompanhamento e análise dos prêmios de risco associados aos produtos estruturados do mercado de energia.
-
+- **Dashboard Unificado:** Apresentação consolidada de 13 KPIs de risco e performance.  
+- **Cálculo de Risco Automatizado:** Implementação do **VaR histórico consolidado do portfólio**, utilizando séries de preços horários/diários de energia. Esse método foi escolhido por refletir de forma mais realista a volatilidade e os choques típicos do mercado elétrico, onde a distribuição dos retornos raramente é normal.  
+- **Simulador de Contratos:** Ferramenta para análise de cenários e **stress testing**, permitindo que os gestores medissem o impacto de novas operações antes da execução.  
+- **Atribuição de Performance:** Módulos que permitiam decompor o resultado da carteira para entender quais estratégias ou contratos geraram maior retorno.  
+- **Gestão de Prêmios:** Acompanhamento e análise dos prêmios de risco associados aos produtos estruturados do mercado de energia.  
 
 > *Nota: Por se tratar de um projeto interno e proprietário da Statkraft, o código-fonte não pode ser compartilhado publicamente. Este repositório serve como uma documentação detalhada da arquitetura do projeto, dos desafios superados e do valor gerado para o negócio.*
