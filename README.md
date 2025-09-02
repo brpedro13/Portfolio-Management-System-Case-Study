@@ -37,15 +37,5 @@ Desenvolvi do zero uma **aplicação web interativa e centralizada** que automat
 - **Atribuição de Performance:** Módulos que permitiam decompor o resultado da carteira para entender quais estratégias ou contratos geraram maior retorno.
 - **Gestão de Prêmios:** Acompanhamento e análise dos prêmios de risco associados aos produtos estruturados do mercado de energia.
 
-## 🚧 Desafios Técnicos e Soluções
-
-- **Integridade dos Dados:** Garantir a qualidade dos dados de mercado era crucial. **Solução:** Implementei rotinas de validação e limpeza no pipeline de dados para tratar outliers e dados faltantes antes dos cálculos.
-- **Performance de Cálculos:** Com o aumento do volume de dados, alguns cálculos se tornaram lentos. **Solução:** Otimizei as queries no Azure SQL e refatorei o código Python, vetorizando operações com Pandas e NumPy para ganhos expressivos de performance.
-- **Usabilidade:** A ferramenta precisava ser intuitiva para traders e gestores. **Solução:** Realizei sessões de feedback semanais com os usuários finais, ajustando a interface e os fluxos de navegação para criar uma experiência de baixa latência e alta usabilidade.
-
-## 🌱 Principais Lições Aprendidas
-
-- **Técnica:** A importância de um design de software modular desde o início, que facilitou a adição de novos KPIs e modelos de risco sem a necessidade de grandes refatorações.
-- **Negócio:** A colaboração estreita com os usuários finais não é apenas útil, é essencial. Entender profundamente o "porquê" por trás de uma solicitação leva a uma solução muito mais eficaz.
 
 > *Nota: Por se tratar de um projeto interno e proprietário da Statkraft, o código-fonte não pode ser compartilhado publicamente. Este repositório serve como uma documentação detalhada da arquitetura do projeto, dos desafios superados e do valor gerado para o negócio.*
